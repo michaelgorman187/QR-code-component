@@ -1,0 +1,51 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#container{
+  background: hsl(212, 45%, 89%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  width: 100vw;
+  position: relative;
+}
+
+#outershell {
+ height: 520px;
+ width: 340px;
+ background: hsl(0, 0%, 100%);
+ border-radius: 20px;
+ display: grid;
+ justify-content: center;
+ text-align: center
+}
+
+img {
+  border-radius: 5%;
+  height: 300px;
+  width: 300px;
+  margin: auto;
+  margin-top:20px;
+
+}
+
+h2 {
+  margin: 20px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+}
